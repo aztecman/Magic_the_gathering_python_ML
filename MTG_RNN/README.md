@@ -1,3 +1,5 @@
+This repo uses the code of this fellow, applied to Magic the Gathering card text.
+https://github.com/sherjilozair/char-rnn-tensorflow
 char-rnn-tensorflow
 ===
 
@@ -21,21 +23,6 @@ To force CPU mode, use `export CUDA_VISIBLE_DEVICES=""` and `unset CUDA_VISIBLE_
 (resp. `set CUDA_VISIBLE_DEVICES=""` and `set CUDA_VISIBLE_DEVICES=` on Windows).
 
 To continue training after interruption or to run on more epochs, `python train.py --init_from=save`
-
-## Datasets
-You can use any plain text file as input. For example you could download [The complete Sherlock Holmes](https://sherlock-holm.es/ascii/) as such:
-
-```bash
-cd data
-mkdir sherlock
-cd sherlock
-wget https://sherlock-holm.es/stories/plain-text/cnus.txt
-mv cnus.txt input.txt
-```
-
-Then start train from the top level directory using `python train.py --data_dir=./data/sherlock/`
-
-A quick tip to concatenate many small disparate `.txt` files into one large training file: `ls *.txt | xargs -L 1 cat >> input.txt`.
 
 ## Tuning
 
