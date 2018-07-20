@@ -1,4 +1,3 @@
-This repo uses the code of this fellow, applied to Magic the Gathering card text.
 https://github.com/sherjilozair/char-rnn-tensorflow
 char-rnn-tensorflow
 ===
