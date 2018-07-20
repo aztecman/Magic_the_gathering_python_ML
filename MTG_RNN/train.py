@@ -11,7 +11,7 @@ from six.moves import cPickle
 parser = argparse.ArgumentParser(
                     formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 # Data and model checkpoints directories
-parser.add_argument('--data_dir', type=str, default='data/tinyshakespeare',
+parser.add_argument('--data_dir', type=str, default='data/MTG',
                     help='data directory containing input.txt with training examples')
 parser.add_argument('--save_dir', type=str, default='save',
                     help='directory to store checkpointed models')
