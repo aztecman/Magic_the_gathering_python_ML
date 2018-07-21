@@ -13,7 +13,7 @@ Inspired from Andrej Karpathy's [char-rnn](https://github.com/karpathy/char-rnn)
 - [Tensorflow 1.0](http://www.tensorflow.org)
 
 ## Basic Usage
-To train with default parameters on the tinyshakespeare corpus, run `python train.py`. To access all the parameters use `python train.py --help`.
+To train with default parameters on the MTG corpus, run `python train.py`. To access all the parameters use `python train.py --help`.
 
 To sample from a checkpointed model, `python sample.py`.
 Sampling while the learning is still in progress (to check last checkpoint) works only in CPU or using another GPU.
